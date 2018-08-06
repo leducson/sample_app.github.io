@@ -7,6 +7,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      log_out: "Log out"
+      user: "User"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
     footer:
       about: "About"
       contact: "Contact"
