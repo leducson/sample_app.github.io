@@ -5,6 +5,7 @@
 $gray-medium-light: #eaeaea;
 $gray-light: #777;
 $white-light: #fff;
+$red_color: red;
 
 /* universal */
 body {
@@ -158,9 +159,9 @@ input {
 }
 
 .error_explanation {
-  color: red;
+  color: $red_color;
   ul {
-    color: red;
+    color: $red_color;
     margin: 0 0 30px 0;
   }
 }

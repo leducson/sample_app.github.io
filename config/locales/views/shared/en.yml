@@ -8,7 +8,7 @@ en:
       help: "Help"
       log_in: "Log in"
       log_out: "Log out"
-      user: "User"
+      users: "Users"
       account: "Account"
       profile: "Profile"
       settings: "Settings"
