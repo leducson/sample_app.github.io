@@ -1,5 +1,5 @@
 class User < ApplicationRecord
-  attr_accessor :remember_token, :activation_token
+  attr_accessor :remember_token, :activation_token, :reset_token, :change_pass
   before_save :email_downcase
   before_create :create_activation_digest
 
@@ -15,19 +15,15 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true, length:
     {minimum: Settings.validates.user.password_length}, allow_nil: true
+  validate :password_empty?
 
   scope :created_at_desc, ->{order(created_at: :desc)}
-
-  def email_downcase
-    email.downcase!
-  end
 
   def self.digest string
     cost = BCrypt::Engine::MIN_COST || BCrypt::Engine.cost
     BCrypt::Password.create(string, cost: cost)
   end
 
-  # Returns a random token.
   def self.new_token
     SecureRandom.urlsafe_base64
   end
@@ -56,7 +52,28 @@ class User < ApplicationRecord
     update_attribute(:activated_at, Time.zone.now)
   end
 
+  def create_reset_digest
+    update_columns(reset_digest: User.digest(User.new_token),
+      reset_sent_at: Time.zone.now, updated_at: Time.zone.now)
+  end
+
+  def send_password_reset_email
+    UserMailer.password_reset(self).deliver_now
+  end
+
+  def password_reset_expired?
+    reset_sent_at < 2.hours.ago
+  end
+
   private
+
+  def password_empty?
+    errors.add(:password, " is not empty?") if change_pass && password.blank?
+  end
+
+  def email_downcase
+    email.downcase!
+  end
 
   def create_activation_digest
     self.activation_token  = User.new_token
