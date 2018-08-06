@@ -1,8 +1,8 @@
 <% provide(:title, t(".title")) %>
   <h1><%= t('.title')%></h1>
   <p>
-    <%= t(".link_1", :url_1 => link_to(t(".title_link1"), "http://www.railstutorial.org/")).html_safe%>
-    <%= t(".link_2", :url_2 => link_to(t(".title_link2"), "http://www.railstutorial.org/book")).html_safe%>
-    <%= t(".link_3", :url_3 => link_to(t(".title_link3"), "http://screencasts.railstutorial.org/")).html_safe%>
-    <%= t(".link_4", :url_4 => link_to(t(".title_link4"), "http://rubyonrails.org/")).html_safe%>
+    <%= raw t(".link_1")%>
+    <%= raw t(".link_2")%>
+    <%= raw t(".link_3")%>
+    <%= raw t(".link_4")%>
   </p>

@@ -2,21 +2,14 @@ en:
   static_pages:
     about:
       title: "About"
-      link_1: "The %{url_1}"
-      title_link1: "Ruby on Rails Tutorial"
-      link_2: "is a %{url_2} and"
-      title_link2: "book"
-      link_3: "%{url_3} to teach web development with"
-      title_link3: "screencast series"
-      link_4: "%{url_4}. This is the sample application for the tutorial."
-      title_link4: "Ruby on Rails"
+      link_1: "The <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a>"
+      link_2: "is a <a href='http://www.railstutorial.org/book'>book</a> and"
+      link_3: "<a href='http://screencasts.railstutorial.org/'>screencast series</a> to teach web development with"
+      link_4: "<a href='http://rubyonrails.org/'>Ruby on Rails</a>. This is the sample application for the tutorial."
     help:
       title: "Help"
-      link_1: "Get help on the Ruby on Rails Tutorial at the %{url_1}"
-      title_link1: "Rails Tutorial help section"
-      link_2: "To get help on this sample app, see the %{url_2}"
-      title_link2: "Ruby on Rails Tutorial book"
+      link_1: "Get help on the Ruby on Rails Tutorial at the <a href='http://www.railstutorial.org/help'>Rails Tutorial help section</a>"
+      link_2: "To get help on this sample app, see the <a href='http://www.railstutorial.org/book'>Ruby on Rails Tutorial book</a>"
     home:
       title: "Sample App"
-      link: "This is the home page for the %{url} sample application."
-      title_link: "Ruby on Rails Tutorial"
+      link: "This is the home page for the <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a> sample application."

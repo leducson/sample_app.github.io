@@ -1,5 +1,5 @@
 <% provide(:title, t(".title")) %>
 <h1><%= t(".title")%></h1>
 <p>
-  <%= t(".link", :url => link_to(t(".title_link"), "http://www.railstutorial.org/")).html_safe%>
+  <%= raw t(".link")%>
 </p>
