@@ -8,4 +8,5 @@ class Micropost < ApplicationRecord
     length: {maximum: Settings.validates.micropots.content_length}
 
   scope :newest, ->{order created_at: :desc}
+  scope :feeds, ->(following_ids, id){where("user_id IN (?) OR user_id = ?", following_ids, id)}
 end

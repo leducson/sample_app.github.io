@@ -1,0 +1,9 @@
+<% user_relations.each do |user| %>
+  <li>
+    <%= gravatar_for user, size: Settings.gravatar_size_user %>
+    <%= link_to user.name, user %>
+    <% if @title == "Following" %>
+      <%= link_to t(".delete"), link_unfollow(user),class:"btn-right btn btn-danger btn-sm", method: :delete, data: { confirm: t(".are_you_sure") } %>
+    <%end%>
+  </li>
+<% end %>
