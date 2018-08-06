@@ -1,0 +1,13 @@
+en:
+  shared:
+    header:
+      logo: "Sample App"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      link: "<small>The <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
+      by <a href='http://www.michaelhartl.com/'>Michael Hartl</a></small>"
