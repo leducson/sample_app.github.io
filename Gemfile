@@ -39,8 +39,11 @@ gem "jbuilder", "~> 2.5"
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", ">= 1.1.0", require: false
+gem "carrierwave", "1.2.2"
+gem "i18n-js", "~> 3.0", ">= 3.0.11"
 gem "jquery-rails", "~> 4.3", ">= 4.3.3"
 gem "kaminari", "~> 1.1", ">= 1.1.1"
+gem "mini_magick", "4.7.0"
 gem "rubocop", "~> 0.54.0", require: false
 
 gem "i18n", "~> 1.0", ">= 1.0.1"

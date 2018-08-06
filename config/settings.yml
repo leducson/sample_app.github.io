@@ -3,6 +3,8 @@ validates:
     name_length: 50
     email_length: 255
     password_length: 6
+  micropots:
+    content_length: 140
 
 available_locales: ["en"]
 default_locale: "en"
@@ -10,3 +12,5 @@ remember_me: "1"
 users_per: 15
 gravatar_size: 90
 gravatar_size_user: 50
+micropots_per: 15
+image_types: "image/jpeg,image/gif,image/png"

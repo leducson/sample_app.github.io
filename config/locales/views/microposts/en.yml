@@ -1,0 +1,6 @@
+en:
+  microposts:
+    micropost:
+      posted_by: "Posted %{time_post} ago."
+      delete: "Delete"
+      confirm: "Are you sure delete?"

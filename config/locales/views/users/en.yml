@@ -19,3 +19,5 @@ en:
     list:
       delete: "Delete"
       are_you_sure: "Are you sure!"
+    show:
+      micropots: "Microposts"
