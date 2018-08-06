@@ -12,7 +12,9 @@ class User < ApplicationRecord
 
   has_secure_password
   validates :password, presence: true, length:
-    {minimum: Settings.validates.user.password_length}
+    {minimum: Settings.validates.user.password_length}, allow_nil: true
+
+  scope :created_at_desc, ->{order(created_at: :desc)}
 
   def email_downcase
     email.downcase!

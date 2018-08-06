@@ -7,3 +7,5 @@ validates:
 available_locales: ["en"]
 default_locale: "en"
 remember_me: "1"
+users_per: 15
+gravatar_size: 90

@@ -7,8 +7,12 @@ class SessionsController < ApplicationController
     if user&.authenticate(session[:password])
       flash[:success] = t ".login_success"
       log_in user
-      session[:remember_me] == Settings.remember_me ? remember(user) : forget(user)
-      redirect_to user
+      if session[:remember_me] == Settings.remember_me
+        remember user
+      else
+        forget user
+      end
+      redirect_back_or user
     else
       flash[:danger] = t ".login_failed"
       render :new

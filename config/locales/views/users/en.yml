@@ -10,3 +10,12 @@ en:
         email: "Email"
         password: "Password"
         confirmation: "Confirmation"
+    edit:
+      title: "Edit User"
+      login: "Please enter login first ..."
+    index:
+      title: "All User"
+      login: "Please enter login first ..."
+    list:
+      delete: "Delete"
+      are_you_sure: "Are you sure!"
