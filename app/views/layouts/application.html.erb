@@ -6,9 +6,13 @@
     <%= stylesheet_link_tag "application", media: "all",
                                               "data-turbolinks-track": "reload" %>
     <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "shared/shim" %>
   </head>
-
   <body>
-    <%= yield %>
+    <%= render "shared/header" %>
+    <div class="container">
+      <%= yield %>
+      <%= render "shared/footer" %>
+    </div>
   </body>
 </html>

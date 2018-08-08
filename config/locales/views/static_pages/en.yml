@@ -1,10 +1,5 @@
 en:
   static_pages:
-    home:
-      title: "Sample App"
-      text: "This is home page for the"
-      rail_title: "Ruby on Rails Tutorial"
-      sample_app: "sample application"
     about:
       title: "About"
       the: "The"
@@ -21,4 +16,15 @@ en:
       text_1: "Get help on the Ruby on Rails Tutorial at the"
       rail_section: "Rails Tutorial help section"
       text_2: "To get help on this sample app, see the"
-      rails_book: "Ruby on Rails Tutorial book"
+      rail_book: "Ruby on Rails Tutorial book"
+    home:
+      welcome: "Welcome to the Sample App"
+      text: "This is the home page for the "
+      text_title_link: "Ruby on Rails Tutorial"
+      sample_text: "sample application"
+      sign_up: "Sign up now!"
+      rails_logo: "Rails logo"
+    contact:
+      title: "Contact"
+      text: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      text_title: "contact page"

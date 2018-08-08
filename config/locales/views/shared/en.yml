@@ -1,0 +1,15 @@
+en:
+  shared:
+    header:
+      logo: "Sample App"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      the: "The"
+      ror_title: "Ruby on Rails Tutorial"
+      by: "by"
+      name: "Michael Hartl"
