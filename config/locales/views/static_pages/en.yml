@@ -2,28 +2,29 @@ en:
   static_pages:
     about:
       title: "About"
-      link_1: "The %{url_1}"
-      title_link1: "Ruby on Rails Tutorial"
-      link_2: "is a %{url_2} and"
-      title_link2: "book"
-      link_3: "%{url_3} to teach web development with"
-      title_link3: "screencast series"
-      link_4: "%{url_4}. This is the sample application for the tutorial."
-      title_link4: "Ruby on Rails"
+      the: "The"
+      ror_tut: "Ruby on Rails Tutorial"
+      is_a: "is a"
+      book: "book"
+      _and: "and"
+      screencast: "screencast series"
+      text: "to teach web development with"
+      ror_title: "Ruby on Rails"
+      sample_text: "This is the sample application for the tutorial"
     help:
       title: "Help"
-      link_1: "Get help on the Ruby on Rails Tutorial at the %{url_1}"
-      title_link1: "Rails Tutorial help section"
-      link_2: "To get help on this sample app, see the %{url_2}"
-      title_link2: "Ruby on Rails Tutorial book"
+      text_1: "Get help on the Ruby on Rails Tutorial at the"
+      rail_section: "Rails Tutorial help section"
+      text_2: "To get help on this sample app, see the"
+      rail_book: "Ruby on Rails Tutorial book"
     home:
       welcome: "Welcome to the Sample App"
-      rails_tutorial: "This is the home page for the
-      <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
-      sample application."
+      text: "This is the home page for the "
+      text_title_link: "Ruby on Rails Tutorial"
+      sample_text: "sample application"
       sign_up: "Sign up now!"
       rails_logo: "Rails logo"
     contact:
       title: "Contact"
-      link: "Contact the Ruby on Rails Tutorial about the sample app at the
-      <a href='http://www.railstutorial.org/contact'>contact page</a>."
+      text: "Contact the Ruby on Rails Tutorial about the sample app at the "
+      text_title: "contact page"

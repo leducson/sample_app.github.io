@@ -9,5 +9,7 @@ en:
       about: "About"
       contact: "Contact"
       news: "News"
-      link: "<small>The <a href='http://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
-      by <a href='http://www.michaelhartl.com/'>Michael Hartl</a></small>"
+      the: "The"
+      ror_title: "Ruby on Rails Tutorial"
+      by: "by"
+      name: "Michael Hartl"
