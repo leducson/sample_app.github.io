@@ -1,5 +1,7 @@
-<% provide(:title, t(".title")) %>
-<h1><%= t(".title")%></h1>
+<% provide :title, t(".title") %>
+<h1>
+  <%= t ".title" %>
+</h1>
 <p>
-  <%= raw t(".link")%>
+  <%= t ".text" %> <%= link_to t(".text_title"), "http://www.railstutorial.org/contact" %>
 </p>

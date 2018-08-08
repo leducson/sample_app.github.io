@@ -1,10 +1,13 @@
 <footer class="footer">
-  <%= raw t(".link")%>
+  <small>
+    <%= t ".the" %> <%= link_to t(".ror_title"), "http://www.railstutorial.org/" %> <%= t ".by" %>
+    <%= link_to t(".name"), "http://www.michaelhartl.com/" %>
+  </small>
   <nav>
     <ul>
-      <li><%= link_to t(".about"),   about_path %></li>
+      <li><%= link_to t(".about"), about_path %></li>
       <li><%= link_to t(".contact"), contact_path %></li>
-      <li><a href="http://news.railstutorial.org/"><%= t(".news")%></a></li>
+      <li><%= link_to t(".news"), "http://news.railstutorial.org/" %></li>
     </ul>
   </nav>
 </footer>
