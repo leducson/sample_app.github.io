@@ -1,0 +1,8 @@
+validates:
+  user:
+    name_length: 50
+    email_length: 255
+    password_length: 6
+
+available_locales: ["en"]
+default_locale: "en"
