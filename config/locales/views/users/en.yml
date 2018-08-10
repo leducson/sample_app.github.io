@@ -3,3 +3,10 @@ en:
     new:
       signup: "Sign up"
       text: "This will be a signup page for new users."
+    form:
+      submit: "Create my account"
+      label:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        confirmation: "Confirmation"

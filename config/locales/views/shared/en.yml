@@ -1,5 +1,7 @@
 en:
   shared:
+    error_messages:
+      alert_error: "The form contains %{error_count}."
     header:
       logo: "Sample App"
       home: "Home"
