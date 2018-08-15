@@ -7,3 +7,4 @@ en:
       label:
         email: "Email"
         password: "Password"
+      remember_me: "Remember me on this computer"

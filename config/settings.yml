@@ -6,3 +6,4 @@ validates:
 
 available_locales: ["en"]
 default_locale: "en"
+remember_me: "1"
