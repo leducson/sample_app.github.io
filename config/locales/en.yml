@@ -1,4 +1,10 @@
 en:
+  sessions:
+    create:
+      login_success: "Logined successfully!"
+      login_failed: "Invalid email/password combination"
+    destroy:
+      logout_success: "Logout successfully!"
   users:
     create:
       success: "Welcome to Sample App"
