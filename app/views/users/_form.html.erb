@@ -16,5 +16,12 @@
 
       <%= f.submit t(".submit"), class: "btn btn-primary" %>
     <% end %>
+    <% if @user.email? %>
+      <div class="gravatar_edit">
+        <%= @user.email%>
+        <%= gravatar_for @user %>
+        <a href="http://gravatar.com/emails" target="_blank">change</a>
+      </div>
+    <% end %>
   </div>
 </div>

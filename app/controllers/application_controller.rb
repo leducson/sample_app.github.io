@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
+  include SessionsHelper
   protect_from_forgery with: :exception
   before_action :load_locale
   rescue_from ActiveRecord::RecordNotFound, with: :not_found?
-  include SessionsHelper
 
   def hello
     render html: "hello, world!"

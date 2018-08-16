@@ -7,5 +7,11 @@ en:
       logout_success: "Logout successfully!"
   users:
     create:
-      success: "Welcome to Sample App"
-      error: "Failed to create user"
+      signup_success: "Welcome to Sample App"
+      signup_failed: "Failed to create user"
+    update:
+      update_success: "Updated user is successfully"
+      update_failed: "Failed to update user"
+    destroy:
+      destroy_success: "Deleted user is successfully"
+      destroy_failed: "Failed to delete user"
