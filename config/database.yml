@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: training_production
   username: training
   password: <%= ENV['TRAINING_DATABASE_PASSWORD'] %>
