@@ -1,14 +1,20 @@
 en:
+  account_activations:
+    edit:
+      active_success: "Account activated!"
+      active_invalid: "Invalid activation link"
   sessions:
     create:
       login_success: "Logined successfully!"
       login_failed: "Invalid email/password combination"
+      not_active_message: "Account not activated. Check your email for the activation link."
     destroy:
       logout_success: "Logout successfully!"
   users:
     create:
       signup_success: "Welcome to Sample App"
       signup_failed: "Failed to create user"
+      active_notify: "Please check your email to activate your account."
     update:
       update_success: "Updated user is successfully"
       update_failed: "Failed to update user"
