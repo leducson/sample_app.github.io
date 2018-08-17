@@ -12,7 +12,6 @@ class SessionsController < ApplicationController
         flash[:warning] = t ".not_active_message"
         redirect_to root_path
       end
-
     else
       flash[:danger] = t ".login_failed"
       render :new

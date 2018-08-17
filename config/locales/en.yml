@@ -21,3 +21,17 @@ en:
     destroy:
       destroy_success: "Deleted user is successfully"
       destroy_failed: "Failed to delete user"
+  password_resets:
+    create:
+      forgot_password_success: "Email sent with password reset instructions"
+      forgot_password_failed: "Email address not found"
+    update:
+      cant_by_empty: "can't be empty"
+      change_password_success: "Password has been reset."
+    check_expiration:
+      expired: "Password reset has expired."
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+    password_reset:
+      subject: "Password reset"
