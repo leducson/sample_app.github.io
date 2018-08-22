@@ -8,9 +8,19 @@ en:
       errors_count:
         one: "The form contains %{count} error."
         other: "The form contains %{count} errors."
+    micropost_form:
+      new_post: "Compose new micropost..."
+      submit: "Post"
+      validate_file_size: "Maximum file size is 5MB. Please choose a smaller file."
+      content_placeholder: "Compose new micropost..."
+    stats:
+      following: "following"
+      followers: "followers"
     user_info:
       view_my_profile: "(view my profile)"
-      micropost: "micropost"
+      microposts:
+        one: "%{count} micropost"
+        other: "%{count} microposts"
     header:
       logo: "Sample App"
       home: "Home"

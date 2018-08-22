@@ -3,11 +3,26 @@ en:
     edit:
       active_success: "Account activated!"
       active_invalid: "Invalid activation link"
+  microposts:
+    create:
+      create_success: "Micropost created!"
+    destroy:
+      destroy_success: "Micropost deleted"
+      destroy_failed: "Delete micropost is failed"
+  password_resets:
+    create:
+      forgot_password_success: "Email sent with password reset instructions"
+      forgot_password_failed: "Email address not found"
+    update:
+      cant_by_empty: "can't be empty"
+      change_password_success: "Password has been reset."
+    check_expiration:
+      expired: "Password reset has expired."
   sessions:
     create:
       login_success: "Logined successfully!"
       login_failed: "Invalid email/password combination"
-      not_active_message: "Account not activated. Check your email for the activation link."
+      not_activated: "Account not activated. Check your email for the activation link."
     destroy:
       logout_success: "Logout successfully!"
   users:
@@ -21,15 +36,10 @@ en:
     destroy:
       destroy_success: "Deleted user is successfully"
       destroy_failed: "Failed to delete user"
-  password_resets:
-    create:
-      forgot_password_success: "Email sent with password reset instructions"
-      forgot_password_failed: "Email address not found"
-    update:
-      cant_by_empty: "can't be empty"
-      change_password_success: "Password has been reset."
-    check_expiration:
-      expired: "Password reset has expired."
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
   user_mailer:
     account_activation:
       subject: "Account activation"

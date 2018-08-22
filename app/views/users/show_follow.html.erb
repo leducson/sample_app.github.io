@@ -1,0 +1,20 @@
+<% provide :title, @title %>
+<div class="row">
+  <aside class="col-md-3">
+    <section class="user_info">
+      <%= render "shared/user_info" %>
+    </section>
+    <section class="stats">
+      <%= render "shared/stats" %>
+    </section>
+  </aside>
+  <div class="col-md-9">
+    <h3 class="relation_title"><%= @title %></h3>
+    <% if @users.any? %>
+      <ul class="users follow">
+          <%= render "relation_ships", user_relations: @users %>
+      </ul>
+      <%= paginate @users %>
+    <% end %>
+  </div>
+</div>

@@ -10,8 +10,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
-/public/uploads/
-/public/assets/
+/public/uploads
+/public/assets
 !/log/.keep
 !/tmp/.keep
 
@@ -29,3 +29,6 @@
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
+
+# Ignore application configuration
+/config/application.yml

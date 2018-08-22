@@ -14,3 +14,5 @@ gravatar_size: 90
 gravatar_size_user: 50
 micropots_per: 15
 image_types: "image/jpeg,image/gif,image/png"
+following_per: 15
+follower_per: 15

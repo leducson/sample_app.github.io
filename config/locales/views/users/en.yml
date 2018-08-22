@@ -10,6 +10,7 @@ en:
         email: "Email"
         password: "Password"
         confirmation: "Confirmation"
+      change_avatar: "change"
     edit:
       title: "Edit User"
       login: "Please enter login first ..."
@@ -20,4 +21,14 @@ en:
       delete: "Delete"
       are_you_sure: "Are you sure!"
     show:
+      micropots: "Microposts"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    relation_ships:
+      delete: "Unfollow"
+      are_you_sure: "Are you sure"
+    show_follow:
+      my_profile: "view my profile"
       micropots: "Microposts"
