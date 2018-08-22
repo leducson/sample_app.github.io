@@ -35,3 +35,13 @@ en:
       subject: "Account activation"
     password_reset:
       subject: "Password reset"
+  microposts:
+    js:
+      max_file_size: "Maximum file size is 5MB. Please choose a smaller file."
+    create:
+      create_success: "Micropost created!"
+    destroy:
+      destroy_success: "Micropost deleted"
+      destroy_failed: "Delete micropost is failed"
+  errors:
+    is_empty: " is not empty!"

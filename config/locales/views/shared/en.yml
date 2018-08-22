@@ -1,7 +1,16 @@
 en:
   shared:
+    micropost_form:
+      new_post: "Compose new micropost..."
+      submit: "Post"
+      validate_file_size: "Maximum file size is 5MB. Please choose a smaller file."
     error_messages:
-      alert_error: "The form contains %{error_count}."
+      errors_count:
+        one: "The form contains %{count} error."
+        other: "The form contains %{count} errors."
+    user_info:
+      view_my_profile: "(view my profile)"
+      micropost: "micropost"
     header:
       logo: "Sample App"
       home: "Home"

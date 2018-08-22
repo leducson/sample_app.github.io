@@ -24,6 +24,7 @@ en:
       sample_text: "sample application"
       sign_up: "Sign up now!"
       rails_logo: "Rails logo"
+      feed: "Micropost Feed"
     contact:
       title: "Contact"
       text: "Contact the Ruby on Rails Tutorial about the sample app at the "
